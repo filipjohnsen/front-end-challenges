@@ -13,8 +13,9 @@ const Card = ({ href, title }: { href: string; title: string }) => {
 
 export default async function Home() {
   return (
-    <main className="mx-auto mt-24 grid max-w-[1280px] grid-cols-3">
+    <main className="mx-auto mt-24 grid max-w-[1280px] grid-cols-3 gap-8">
       <Card href="/challenges/blog-preview-card" title="Blog preview card" />
+      <Card href="/challenges/newsletter" title="Newsletter" />
     </main>
   );
 }
