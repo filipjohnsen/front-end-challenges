@@ -10,8 +10,6 @@ const figtree = Figtree({
   subsets: ["latin"],
 });
 
-export const title = "Blog preview card";
-
 export default function BlogPreviewCard() {
   return (
     <div className={figtree.className}>
