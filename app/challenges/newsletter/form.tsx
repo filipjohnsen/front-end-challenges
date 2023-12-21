@@ -73,8 +73,9 @@ export function Form() {
           ))}
         </div>
         <input
-          type="text"
+          type="email"
           placeholder="email@company.com"
+          autoComplete="email"
           id="email"
           name="email"
           aria-describedby="email-error"

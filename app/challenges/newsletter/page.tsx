@@ -24,7 +24,7 @@ export default function Newsletter() {
               role="presentation"
             />
             <Image
-              className="block w-full md:hidden"
+              className="block max-h-[250px] w-full object-cover object-bottom md:hidden"
               src={mobileIllustration}
               alt="Illustration"
               role="presentation"
